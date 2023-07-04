@@ -1,0 +1,56 @@
+body {
+   
+    background-size: cover;
+    background-position: 0% 0%;
+  }
+  
+  .updatedoc-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    padding: 40px;
+    background-color: grey;
+    border: 1px solid transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    opacity:90%;
+  }
+  
+  .updatedoc-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .updatedoc-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .updatedoc-input:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .updatedoc-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .updatedoc-button:hover {
+    background-color: #0056b3;
+  }
+  
+  

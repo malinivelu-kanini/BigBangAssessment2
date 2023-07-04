@@ -1,0 +1,121 @@
+.patregcontainer {
+  background: transparent url("https://images.pexels.com/photos/7583382/pexels-photo-7583382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  
+  .formsdoccontainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+
+  .formsdoccontainer h1{
+    position: absolute;
+    top: 0%;
+    left: 1%;
+    width: 100%;
+    font-size: 20px;
+    padding:20px 20px 20px 20px;
+
+    background-color: cadetblue;
+    color: white;
+  }
+
+  .box{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    width: 94%;
+    height: fit-content;
+    border: 0px solid gray;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px 20px 20px 20px;
+    gap: 20px;
+    background-color: rgb(215, 196, 173);
+    opacity: 90%;
+    padding-bottom: 200px;
+  }
+
+  
+  .inputdoccontainer {
+    margin-bottom: 15px;
+  }
+  
+  .reFordoc {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .reFordoc:focus {
+    outline: none;
+    border-color: black;
+  }
+  
+  .labeldoctext {
+    font-weight: bold;
+  }
+  
+  .buttondoccontainer {
+
+    position: absolute;
+    width:fit-content;
+    height: fit-content;
+    border: 0px solid gray;
+    padding: 20px 10px 10px 20px;
+    bottom: 10%;
+    left: 35%;
+
+
+  }
+  
+  .submitdocbutton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .submitdocbutton:hover {
+    background-color: #45a049;
+  }
+  
+  .canceldocbutton {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .canceldocbutton:hover {
+    background-color:#e53935;
+  }
+  .inputdoccontainer input{
+      text-align: center;
+  }
+
+  @media only screen and (max-width:900px){
+
+    .buttondoccontainer{
+      left: 10%;
+    }
+
+  }
+  

@@ -1,0 +1,157 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .whole{
+
+    position: absolute;
+    background: url('./log.jpeg');
+    background-size: 100%;
+    background-position: center;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+
+  }
+  
+  .form {
+    position: relative;
+    width: 450px;
+    min-height: 500px;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-color: rgba(26, 82, 76, 0.4); /* Adjust the alpha value (0.4) to control the transparency */
+    backdrop-filter: blur(10px); /* Adjust the blur value to control the glass effect */
+    margin-right: 5%;
+  }
+  
+  .form .cons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+    margin-left: 20%;
+  }
+  
+  header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #e8f4ee;
+  }
+  
+  header p {
+    letter-spacing: 0.05em;
+  }
+
+  .field-set{
+
+    margin-left: 10%;
+
+  }
+  
+  .input-item {
+    background: rgba(255, 255, 255, 0.6); /* Adjust the alpha value (0.6) to control the transparency */
+    color: #333;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  #ey {
+    background: rgba(255, 255, 255, 0.6); /* Adjust the alpha value (0.6) to control the transparency */
+    color: #333;
+    margin: 5.9px 0 0 0;
+    margin-left: -20px;
+    padding: 15px 9px 19px 0px;
+    border-radius: 0px 5px 5px 0px;
+    float: right;
+    position: relative;
+    right: 1%;
+    top: -.2%;
+    z-index: 5;
+    cursor: pointer;
+  }
+  
+  input[class="form-input"] {
+    width: 240px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+    outline: none;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+    background: transparent;
+    border: 3px solid rgba(128, 128, 128, 0.7); /* Adjust the alpha value (0.7) to control the transparency */
+    text-align: center;
+    color: rgb(221, 212, 212);
+  }
+  
+  input[id="txt-input"] {
+    width: 250px;
+  }
+  
+  input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+  }
+
+ 
+  
+
+  button {
+    display: inline-block;
+    color: white;
+    width: 150px;
+    height: 50px;
+    padding: 0 20px;
+    background: rgba(45, 113, 146, 0.7);
+    cursor: pointer;
+  }  
+  h4 {
+    text-align: center;
+    margin: 0 auto; 
+  }
+
+  .submits{
+    margin-top: 30px;
+    margin-left: -30px;
+  }
+  
+@media only screen and (max-width:900px)  {
+
+
+.whole{
+  background: transparent;
+}
+
+.submits{
+  position: absolute;
+  bottom: 15%;
+}
+
+.field-set{
+  margin-left: 14%;
+}
+
+.head-form{
+
+  margin-left: 27%;
+
+}
+
+  
+}
+

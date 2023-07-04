@@ -1,0 +1,103 @@
+.doctors-approve-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+  background-color: black;
+  opacity: 80%; /* Update background color with transparency */
+  backdrop-filter: blur(10px); 
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+.doctors-approve-container h1{
+ color:black;
+}
+
+
+.appdoch {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.docapptab {
+  width: auto;
+  table-layout: auto;
+  margin: 0 auto;
+}
+
+.docapptab {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.5); 
+  
+}
+
+.appdocth {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  color: white;
+}
+
+.appdoctd {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  color: white;
+}
+
+.appdocth {
+  font-weight: bold;
+  
+}
+
+.appdocbutto {
+  padding: 3px 8px;
+  background-color: rgba(255, 127, 80, 0.8); 
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.appdocbutto:hover {
+  background-color: rgba(255, 127, 80, 1); 
+}
+
+.appdocbutto:disabled {
+  background-color: rgba(170, 170, 170, 0.5); 
+  cursor: not-allowed;
+}
+
+.docapptab tr:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.docapptab {
+  line-height: 2;
+}
+
+.appdocth,
+.appdoctd {
+  padding: 6px;
+}
+
+.docapptab {
+  width: auto;
+  table-layout: auto;
+}
+
+.appdocth,
+.appdoctd {
+  padding: 5px;
+}
+
+.doctors-approve-container {
+  padding: 20px 0;
+}

@@ -1,0 +1,46 @@
+.list-head {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid black;
+  }
+  
+  
+  tr:hover {
+    background-color: skyblue;
+  }
+  #table {
+    width: 80%; 
+    margin: 20px auto; 
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  #table th,
+  #table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  #table th {
+    background-color: cadetblue;
+    font-weight: bold;
+  }
+  
+  #table td {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right:1px solid black;
+  }
+  
